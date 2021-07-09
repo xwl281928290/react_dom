@@ -1,0 +1,21 @@
+
+
+.ClassCom{
+    height: 150px;
+    background-color: bisque;
+    border: 1px solid #000;
+}
+
+.FnCom{
+    height: 100px;
+    background-color: burlywood;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}   
+
+.itemDiv{
+    margin: 10px 0;
+    height: 150px;
+    background-color: burlywood;
+    border: 1px solid #000;
+}

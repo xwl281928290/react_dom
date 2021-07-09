@@ -3,11 +3,13 @@ import ReactDOM from "react-dom";
 
 import "./index.css";
 
-// import FnCompontents from "./compontent/Fn_compontents";
-import ClassCompontents from "./compontent/Class_compontents";
+import Home from './views/Home.js'
+
+
+
 
 ReactDOM.render(
-  // <Hello/>
-  <ClassCompontents />,
+  <Home />,
+
   document.getElementById("root")
 );
