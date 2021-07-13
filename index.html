@@ -1,3 +1,12 @@
+<!--
+ * @Author: Mr.xie
+ * @Date: 2021-07-09 14:19:39
+ * @LastEditTime: 2021-07-13 14:55:12
+ * @LastEditors: Mr.xie
+ * @Description: 
+ * @FilePath: /react_dom/index.html
+ * 可以输入预定的版权声明、个性签名、空行等
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,37 +15,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 </head>
 
 <body>
 
     <div id="root"></div>
 
-    <div id="root1"></div>
-
-    <!-- 1引入js文件 -->
-    <script src="./node_modules/react/umd/react.development.js"></script>
-    <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
-    <script>
-
-        /**
-         * 2创建react元素
-         * arguments1 元素名称
-         * arguments2 元素属性
-         * arguments3 元素的子节点
-         * arguments4.... 元素的子节点
-         * 
-        */
-        const title = React.createElement('p', { name: '123' }, 'hello word', 'asdasd')
-
-        /**
-         * 3 渲染react元素
-         * arguments1 要渲染的react元素
-         * arguments2 挂载点
-        */
-        ReactDOM.render(title, document.getElementById('root'))
 
     </script>
 </body>

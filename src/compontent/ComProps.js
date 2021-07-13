@@ -1,7 +1,7 @@
 /*
  * @Author: Mr.xie
  * @Date: 2021-07-09 17:03:14
- * @LastEditTime: 2021-07-09 17:51:05
+ * @LastEditTime: 2021-07-13 10:19:23
  * @LastEditors: Mr.xie
  * @Description:
  * @FilePath: /react_dom/src/compontent/ComProps.js
@@ -31,8 +31,13 @@ class HelloClass extends React.Component {
     constructor(props) {
         super(props)
         console.log(this.props)
+        console.log('1')
+    }
+    componentDidMount() {
+        console.log('3')
     }
     render() {
+        console.log('2')
         console.log(this.props)
         return (
             <div>ClassProps:{this.props.name}</div>

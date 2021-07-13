@@ -1,7 +1,7 @@
 /*
  * @Author: Mr.xie
  * @Date: 2021-07-09 14:49:22
- * @LastEditTime: 2021-07-09 17:39:27
+ * @LastEditTime: 2021-07-13 15:09:26
  * @LastEditors: Mr.xie
  * @Description:
  * @FilePath: /react_dom/src/views/Home.js
@@ -10,10 +10,10 @@
 import React from "react";
 import FnCompontents from '../compontent/Fn_compontents'
 import ClassCompontents from '../compontent/Class_compontents'
-// import ComProps from '../compontent/ComProps'
 import { HelloFn, HelloClass } from '../compontent/ComProps'
-const foutter = () => {
 
+
+const foutter = () => {
     return (
         <div>
             <span>下面引入两个组件</span>
@@ -31,7 +31,6 @@ const foutter = () => {
                 tag={<p>这是p标签</p>}
             />
         </div>
-
     )
 }
 
